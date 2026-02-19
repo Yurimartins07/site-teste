@@ -150,6 +150,13 @@ a {
     animation: fadeIn 1.5s ease-out;
 }
 
+.cta-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
 .main-title {
     font-size: 5rem;
     line-height: 1.1;
@@ -508,6 +515,22 @@ footer {
     .nav-links {
         display: none;
         /* Mobile menu to be added if complicated, simple for now */
+    }
+
+    .cta-group {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .btn-primary {
+        margin-right: 0;
+        width: 100%;
+        max-width: 280px;
+    }
+
+    .btn-secondary {
+        width: 100%;
+        max-width: 280px;
     }
 
     .burger-card {
