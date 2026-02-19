@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gourmet Burger Experience</title>
+    <!-- Importing styles -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Importing fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Montserrat:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <!-- Importing icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Importing scripts -->
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">BURGER<span class="highlight">PRIME</span></div>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#ingredients">Ingredients</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <video autoplay muted loop id="hero-video" poster="burger_1.jpg">
+            <source src="hero_video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="main-title">Experience the <br><span class="text-gradient">Ultimate Burger</span></h1>
+            <p class="sub-title">Fresh ingredients. Perfect layers. Unmatched flavor.</p>
+            <div class="cta-group">
+                <a href="#menu" class="btn btn-primary">Order Now</a>
+                <a href="#ingredients" class="btn btn-secondary">View Menu</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ingredients Section -->
+    <section id="ingredients" class="ingredients">
+        <div class="container">
+            <h2 class="section-title">Our Secret</h2>
+            <div class="ingredients-grid">
+                <div class="ingredient-card hidden">
+                    <div class="icon-box"><i class="fas fa-leaf"></i></div>
+                    <h3>Fresh</h3>
+                    <p>Farm-to-table vegetables, crisp lettuce, and ripe tomatoes sourced daily.</p>
+                </div>
+                <div class="ingredient-card hidden">
+                    <div class="icon-box"><i class="fas fa-bacon"></i></div>
+                    <h3>Crispy</h3>
+                    <p>Perfectly smoked bacon and golden onion rings for that satisfying crunch.</p>
+                </div>
+                <div class="ingredient-card hidden">
+                    <div class="icon-box"><i class="fas fa-drumstick-bite"></i></div>
+                    <h3>Premium</h3>
+                    <p>100% Wagyu beef and artisanal cheeses for an unforgettable taste.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Signature Burgers Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2 class="section-title">Signature Selections</h2>
+            <div class="menu-grid">
+                <div class="burger-card hidden">
+                    <div class="card-image-wrapper">
+                        <img src="burger_1.jpg" alt="The Classic Prime">
+                    </div>
+                    <div class="card-info">
+                        <h3>The Classic Prime</h3>
+                        <p>A timeless masterpiece with double cheddar, fresh greens, and secret sauce.</p>
+                        <span class="price">$14.99</span>
+                        <a href="#" class="btn btn-sm">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="burger-card hidden">
+                    <div class="card-image-wrapper">
+                        <img src="burger_2.jpg" alt="The Smokehouse Deluxe">
+                    </div>
+                    <div class="card-info">
+                        <h3>The Smokehouse Deluxe</h3>
+                        <p>Smoked bacon, crispy onions, and BBQ glaze on a brioche bun.</p>
+                        <span class="price">$16.99</span>
+                        <a href="#" class="btn btn-sm">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="burger-card hidden">
+                    <div class="card-image-wrapper">
+                        <img src="burger_1.jpg" alt="The Inferno Spicy">
+                    </div>
+                    <div class="card-info">
+                        <h3>The Inferno Spicy</h3>
+                        <p>Jalapeños, pepper jack cheese, and our signature ghost pepper sauce.</p>
+                        <span class="price">$15.99</span>
+                        <a href="#" class="btn btn-sm">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="burger-card hidden">
+                    <div class="card-image-wrapper">
+                        <img src="burger_2.jpg" alt="Truffle Mushroom Swiss">
+                    </div>
+                    <div class="card-info">
+                        <h3>Truffle Mushroom Swiss</h3>
+                        <p>Sautéed mushrooms, swiss cheese, and white truffle aioli.</p>
+                        <span class="price">$17.99</span>
+                        <a href="#" class="btn btn-sm">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="burger-card hidden">
+                    <div class="card-image-wrapper">
+                        <img src="burger_1.jpg" alt="Crispy Chicken Bliss">
+                    </div>
+                    <div class="card-info">
+                        <h3>Crispy Chicken Bliss</h3>
+                        <p>Golden fried chicken breast with spicy slaw and pickles.</p>
+                        <span class="price">$13.99</span>
+                        <a href="#" class="btn btn-sm">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="burger-card hidden">
+                    <div class="card-image-wrapper">
+                        <img src="burger_2.jpg" alt="The Vegan Masterpiece">
+                    </div>
+                    <div class="card-info">
+                        <h3>The Vegan Masterpiece</h3>
+                        <p>Plant-based patty, vegan cheddar, and avocado on a gluten-free bun.</p>
+                        <span class="price">$16.49</span>
+                        <a href="#" class="btn btn-sm">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section id="cta" class="cta-banner">
+        <div class="cta-overlay"></div>
+        <div class="cta-content hidden">
+            <h2>Taste Perfection Today</h2>
+            <p>Don't wait. Your ultimate burger experience is just a click away.</p>
+            <a href="#" class="btn btn-primary btn-large">Order Now</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-brand">BURGER<span class="highlight">PRIME</span></div>
+            <p>&copy; 2026 BurgerPrime. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
